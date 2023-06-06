@@ -17,7 +17,7 @@ admin.site.register(Email, AdminEmail)
 
 
 class AdminProduct(admin.ModelAdmin):
-    list_display = ('name', 'image', 'description')
+    list_display = ('name', 'image')
     ordering = ['name']
 
 
