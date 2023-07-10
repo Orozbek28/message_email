@@ -5,12 +5,14 @@ from .serializers import EmailSerializers, ProductSerializers
 
 
 class EmailAPIVIew(generics.CreateAPIView):
-    serializer_class = EmailSerializers
     queryset = Email.objects.all()
+    serializer_class = EmailSerializers
+
 
 
 class ProductAPIVIew(generics.ListAPIView):
-    serializer_class = ProductSerializers
     queryset = Product.objects.all()
+    serializer_class = ProductSerializers
+
 
 #  orozbek gulmuradov
