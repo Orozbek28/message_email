@@ -3,4 +3,5 @@ djangorestframework
 drf_yasg
 django-cors-headers
 Pillow
+django-environ
 gunicorn
